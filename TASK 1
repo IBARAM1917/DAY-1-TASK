@@ -1,0 +1,23 @@
+ Difference between HTTP1.1 vs HTTP2
+HTTP1.1
+     In 1997,when http/1.1 published
+     It uses requests resource inlining for use gelting multiple pages
+     Is an application layer protocol in the internet protocol suite model for distibute
+     Multiplexing of requests and responses to avoid some of the head of line blacking problems
+     It compresses data by itself
+     Working on textual format
+     Transferss these in plain-text messages
+     Flow control relies on underlying TCP connection
+     Compress the data sent in HTTP message,especially to decrease the size of css and javascript files
+     This allows them to maximize perceived and actual page load speed to a degree that was not possible
+HTTP/2
+     HTTP/2 was created in 2015
+     It uses PUSH frame by sever that collects all multiple pages
+     Major verision of the http network portocol used by the world wide web
+     Additional performance improvements in the first draft of http/2
+     It uses HAPACK for data compression
+     BINARRY PTOTOCOL
+     Encodes these into binary ,allowing for significantly different delivery model possiblities
+     Mulitiplexes streams of data within a single TCP connection 
+     The same is true when it come to header compression
+     This allows developers to decide which page resources will load first every time

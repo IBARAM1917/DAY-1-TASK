@@ -1,0 +1,20 @@
+ Objects and its internal representation in Javascript:
+        Objects in javascript, is its most important data type.building blocks for modern Javascript
+        Primitive data types
+        Thes primitive data types all store a single value each
+        Variables of functions are callrd properties and methods,respectively,in the context of an Objects
+        Every object has some property associated with some value
+ SYNTAX:
+
+       Adding a property to an object is:
+            objectName.object property=propertyvalue;       
+
+       Deleting a property an object is:
+            delete.objectName.objectproperty;
+
+       Access a property  an object is:
+            objectName.property
+                   //or
+            objectName["property"]
+                   //or
+            objectName[expression]                
