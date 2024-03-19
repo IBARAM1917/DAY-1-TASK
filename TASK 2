@@ -2,7 +2,9 @@
         Objects in javascript, is its most important data type.building blocks for modern Javascript
         Primitive data types
         Thes primitive data types all store a single value each
-        Variables of functions are callrd properties and methods,respectively,in the context of an Objects
+        Variables of functions are called properties and methods,respectively,in the context of an Objects
+        The variables don’t actually store the value
+        Internally, JavaScript engines use various data structures to represent objects efficiently
         Every object has some property associated with some value
  SYNTAX:
 
@@ -17,4 +19,11 @@
                    //or
             objectName["property"]
                    //or
-            objectName[expression]                
+            objectName[expression]          
+  Example
+            Internal Representation:
+{
+  name: "ABI RAM",
+  age: 27,
+  email: "abirami@gmail.com"
+}            
